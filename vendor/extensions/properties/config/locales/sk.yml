@@ -1,0 +1,29 @@
+sk:
+  refinery:
+    plugins:
+      properties:
+        title: Properties
+    properties:
+      admin:
+        properties:
+          actions:
+            create_new: Pridať Property
+            reorder: Preusporiadať Properties
+            reorder_done: Koniec radenia Properties
+          records:
+            title: Properties
+            sorry_no_results: Ľutujeme, ale neboli nájdené žiadne výsledky.
+            no_items_yet: Nie sú vytvorené žiadne Properties. Kliknite na "Pridať Property" pre pridanie prvého property.
+          property:
+            view_live_html: Zobraziť náhľad property<br/><em>(otvorí sa v novom okne)</em>
+            edit: Upraviť property
+            delete: Zmazať property
+      properties:
+        show:
+          other: Daľšie Properties
+  activerecord:
+    attributes:
+      'refinery/properties/property':
+        name: Name
+        p_img: P Img
+        description: Description
