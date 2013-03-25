@@ -7,20 +7,20 @@
   <%= render '/refinery/ie6check' if request.env['HTTP_USER_AGENT'] =~ /MSIE/ -%>
   <div id="page_container">
     <header id="header">
-      <%= render '/refinery/header' -%>
+
     </header> 
 
  <body>	
 	    <div class="container">
 			<div class="row"><!-- start header -->
-				<div class="span4 logo">
+				<div class="span4 logo bott">
 					<a href="index.html">
 					<div class="row">
 						<div class="span1">
 							<img src="css/images/Home-green-48.png" alt=""/>
 						</div>
 						<div class="span3">
-							<h1><small>Bootstrap</small><br /><span>Real</span> estate</h1>
+							      <%= render '/refinery/header' -%>
 						</div>
 					</div>
 					</a>
@@ -37,6 +37,9 @@
 					<div class="navbar">
 						<div class="navbar-inner">
 							<div class="container">
+								  <%= render '/refinery/menux' %>
+								
+								<!--
 								<div class="nav-collapse">
 									<ul class="nav">
 										<li><a href="listings.html" class="first">For sale</a></li>
@@ -52,15 +55,6 @@
 												<li><a href="compare.html">Compare properties</a></li>
 											</ul>
 										</li>							
-										<li class="dropdown">
-											<a href="#" class="dropdown-toggle" data-toggle="dropdown">Other pages <b class="caret"></b></a>
-											<ul class="dropdown-menu">
-												<li><a href="typography.html">Typography</a></li>
-												<li><a href="terms.html">Terms and conditions</a></li>
-												<li><a href="contact.html">Contact us</a></li>
-												<li><a href="about.html">About us</a></li>
-											</ul>
-										</li>
 
 									</ul>
 
@@ -99,11 +93,13 @@
 						</div><!-- /navbar-inner -->
 					</div><!-- /navbar -->
 				</div>
-			</div><!-- end nav -->		<div class="row">
+			</div><!-- end nav --> 
+		  
+			 	<div class="row">
 
 	</div>
 
-	<div class="row">
+	<div class="container">
 				
 		<%= yield %>
 

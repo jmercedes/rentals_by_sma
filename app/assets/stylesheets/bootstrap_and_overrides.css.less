@@ -1,6 +1,8 @@
 @import "twitter/bootstrap/bootstrap";
 @import "twitter/bootstrap/responsive";
 
+body { padding-top: 60px; }
+
 // Set the correct sprite paths
 @iconSpritePath: asset-path("twitter/bootstrap/glyphicons-halflings");
 @iconWhiteSpritePath: asset-path("twitter/bootstrap/glyphicons-halflings-white");
@@ -30,6 +32,26 @@
 //
 // Example:
 // @linkColor: #ff0000;
+
+#logo {
+    background:url(logo_sma.png) no-repeat;
+    height:155px;
+    width:310px;
+	margin:0;
+}
+
+
+#logo a {
+    display:block;
+    text-decoration:none;
+    height:155px;
+    width:239px;
+    text-indent:-9999px;
+}
+
+.bott {
+	margin-bottom:20px;
+}
 
 /*!
  * Bootstrap v2.0.4
