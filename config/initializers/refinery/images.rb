@@ -41,5 +41,7 @@ Refinery::Images.configure do |config|
   # config.dragonfly_url_format = "/system/images/:job/:basename.:ext"
   # config.datastore_root_path = "/Users/evanx/work/rentals_by_sma/public/system/refinery/images"
   # config.trust_file_extensions = false
+  
+  Refinery::PageImages.captions = true
 
 end
