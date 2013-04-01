@@ -1,3 +1,10 @@
+                                                                                   @import "bootstrap.css";
+/*------------------------------------------------------------------
+	Real Estate Stylesheet
+
+	Project:		Real Estate
+	Version:		1.0
+-------------------------------------------------------------------*/
 .clearfix {
   *zoom: 1;
 }
@@ -72,7 +79,7 @@ h3 span {
 }
 /* logo */
 .logo {
-  height: 65px;
+  height: 80px;
 }
 .span4.logo h1 {
   line-height: 21px;
@@ -128,7 +135,7 @@ h3 span {
 }
 /*The showcase*/
 .showcase-caption {
-  color: #555555;
+  color: #333333;
 }
 #showcase-loader {
   background: url('images/loader.gif') no-repeat 50% 50%;
@@ -169,7 +176,7 @@ h3 span {
 }
 .modal-header .close {
   position: absolute;
-  font-size: 13px;
+  font-size: 14px;
   right: 15px;
   color: #222222;
   opacity: 0.7;
@@ -190,7 +197,7 @@ h3 span {
   -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075);
   -moz-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075);
   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075);
-  margin-bottom: 18px;
+  margin-bottom: 19px;
 }
 .premium_properties .thumbnail {
   border: none;
