@@ -11,3 +11,6 @@ Refinery::Pages::Engine.load_seed
 
 # Added by Refinery CMS Properties extension
 Refinery::Properties::Engine.load_seed
+
+# Added by Refinery CMS Portfolio Engine
+Refinery::Portfolio::Engine.load_seed
